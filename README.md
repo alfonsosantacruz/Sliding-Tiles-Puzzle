@@ -1,1 +1,5 @@
 # Sliding-Tiles-Puzzle
+
+The American chess player and puzzle maker, Sam Loyd (1841–1911), created the sliding tiles puzzle in the 1870s. The puzzle can be represented by an $m ×\cross n$ grid. The number of columns is represented by the variable $m$ and $n$ represents the number of rows, and each cell can be any imaginable value (number, letter, image, and so on.). Generally, the data type of the value in a cell is shared among all the other cell values. For the purpose of this project, we will be using integers.
+
+The purpose of the puzzle is to rearrange the initial configuration of the tiles to match another configuration that we will call the goal configuration. The rearrangement task is achieved by swapping the empty tile with some other neighbor tile in all possible directions (left, right, up and down). This project aim to use artificial intelligence by means of an A* search algorithm, capable of finding a solution with the minimum number of moves to the goal configuration. In other words, finds the optimal solution.
